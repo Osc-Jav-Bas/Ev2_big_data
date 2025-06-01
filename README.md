@@ -11,10 +11,10 @@ El objetivo principal es aplicar técnicas de análisis de grandes volúmenes de
 
 ## Herramientas utilizadas
 
-- **Google Cloud Platform**: Plataforma principal de análisis
+- **Google cloud platform**: Plataforma principal de análisis
 - **BigQuery**: Motor de consultas SQL para procesamiento de datos
-- **Data Studio**: Creación de visualizaciones y dashboards
-- **Google Skill Boost**: Plataforma de desarrollo de laboratorios
+- **Data studio**: Creación de visualizaciones y dashboards
+- **Google skill boost**: Plataforma de desarrollo de laboratorios
 - Visualizaciones en base a datasets públicos de avistamientos OVNI
 
 ## Metodología
@@ -24,7 +24,7 @@ El proceso de análisis siguió las siguientes etapas:
 1. **Carga de datos**: Importación del dataset de avistamientos OVNI a BigQuery
 2. **Limpieza de datos**: Normalización y validación de fechas, ubicaciones y descripciones
 3. **Análisis exploratorio**: Consultas SQL para identificar patrones y tendencias
-4. **Visualización**: Creación de gráficos interactivos en Data Studio
+4. **Visualización**: Creación de gráficos interactivos en data studio
 5. **Interpretación**: Análisis de resultados y generación de insights
 
 Se aplicaron técnicas de análisis temporal, geográfico y categórico para examinar la distribución de avistamientos por año, ubicación geográfica, tipos de objetos reportados y duración de los eventos.
@@ -70,15 +70,11 @@ El análisis reveló varios patrones significativos:
 
 ## Conclusiones
 
-El análisis de Big Data aplicado al dataset de avistamientos OVNI ha permitido identificar patrones consistentes y tendencias significativas. El incremento temporal en los reportes puede estar relacionado con el mayor acceso a tecnologías de comunicación y plataformas de reporte.
+El análisis de big data aplicado al dataset de avistamientos OVNI ha permitido identificar patrones consistentes y tendencias significativas. El incremento temporal en los reportes puede estar relacionado con el mayor acceso a tecnologías de comunicación y plataformas de reporte.
 
-La concentración geográfica y los patrones estacionales sugieren factores culturales, demográficos y ambientales que influyen en la observación y reporte de estos fenómenos. Las herramientas de Google Cloud Platform demostraron ser efectivas para el procesamiento escalable de grandes volúmenes de datos y la generación de visualizaciones que facilitan la identificación de patrones complejos.
+La concentración geográfica y los patrones estacionales sugieren factores culturales, demográficos y ambientales que influyen en la observación y reporte de estos fenómenos. Las herramientas de google cloud platform demostraron ser efectivas para el procesamiento escalable de grandes volúmenes de datos y la generación de visualizaciones que facilitan la identificación de patrones complejos.
 
 Este proyecto ilustra la aplicación práctica de técnicas de Big Data para el análisis exploratorio de datasets diversos, demostrando la capacidad de extraer insights valiosos mediante el uso de herramientas cloud modernas.
-
-## Créditos
-
-Este análisis fue desarrollado por **Oscar Javier Bastidas** como parte de la Evaluación 2 de Big Data, utilizando recursos y guías proporcionadas por el profesor de la asignatura y la plataforma Google Skill Boost.
 
 **Repositorio**: [https://github.com/Osc-Jav-Bas/Ev2_big_data](https://github.com/Osc-Jav-Bas/Ev2_big_data)  
 **Sitio web**: [https://osc-jav-bas.github.io/Ev2_big_data/](https://osc-jav-bas.github.io/Ev2_big_data/)
