@@ -5,7 +5,7 @@ Este proyecto corresponde a la **Evaluación 2** de la asignatura **Big Data**, 
 
 ## Introducción
 
-Este análisis explora un dataset de avistamientos de Objetos Voladores No Identificados (OVNIs) para identificar patrones temporales, geográficos y tipológicos. Utilizando herramientas de Big Data en Google Cloud Platform, se procesaron datos históricos de avistamientos para generar insights mediante visualizaciones interactivas y análisis estadístico.
+Este análisis explora un dataset de avistamientos de objetos voladores no identificados (OVNIs) para identificar patrones temporales, geográficos y tipológicos. Utilizando herramientas de big data en Google Cloud Platform, se procesaron datos históricos de avistamientos para generar insights mediante visualizaciones interactivas y análisis estadístico.
 
 El objetivo principal es aplicar técnicas de análisis de grandes volúmenes de datos para descubrir tendencias y patrones en los reportes de avistamientos OVNI a nivel global.
 
@@ -57,7 +57,7 @@ A continuación, se presentan los principales gráficos obtenidos durante el an�
 ![Gráfico 8](images/image8.png)
 *Visualización de patrones específicos identificados*
 
-## Principales Hallazgos
+## Principales hallazgos
 
 El análisis reveló varios patrones significativos:
 
