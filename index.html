@@ -1,64 +1,121 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Evaluación 2 - Big Data</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 900px;
-            margin: auto;
-            padding: 20px;
-            line-height: 1.6;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        h1, h2, h3 {
-            color: #005288;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            margin: 20px 0;
-            border: 1px solid #ccc;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Evaluación 2 - Big Data</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px auto;
+      max-width: 900px;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    img {
+      max-width: 100%;
+      margin: 15px 0;
+      border: 1px solid #ccc;
+    }
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Evaluación 2 - Big Data</h1>
-    <p>Este proyecto corresponde a la Evaluación 2 de la asignatura <strong>Big Data</strong>, basado en un caso de análisis de avistamientos de OVNIs. El trabajo fue desarrollado siguiendo las instrucciones del curso Google Skill Boost.</p>
+  <h1>Evaluación 2 - Big Data</h1>
+  <p>Este proyecto corresponde a la <strong>Evaluación 2</strong> de la asignatura <strong>Big Data</strong>, basado en un caso de análisis de avistamientos de OVNIs. El trabajo fue desarrollado siguiendo las instrucciones del curso Google Skill Boost.</p>
 
-    <h2>Introducción</h2>
-    <p>(Agrega aquí una breve descripción del propósito del análisis y el origen de los datos.)</p>
+  <h2>Introducción</h2>
+  <p>Este análisis explora un dataset de avistamientos de Objetos Voladores No Identificados (OVNIs) para identificar patrones temporales, geográficos y tipológicos. Utilizando herramientas de Big Data en Google Cloud Platform, se procesaron datos históricos de avistamientos para generar insights mediante visualizaciones interactivas y análisis estadístico.</p>
+  <p>El objetivo principal es aplicar técnicas de análisis de grandes volúmenes de datos para descubrir tendencias y patrones en los reportes de avistamientos OVNI a nivel global.</p>
 
-    <h2>Herramientas utilizadas</h2>
-    <ul>
-        <li>Google Cloud Platform</li>
-        <li>BigQuery</li>
-        <li>Python </li>
-        <li>Visualizaciones en base a datasets públicos</li>
-    </ul>
+  <h2>Herramientas utilizadas</h2>
+  <ul>
+    <li><strong>Google Cloud Platform</strong>: Plataforma principal de análisis</li>
+    <li><strong>BigQuery</strong>: Motor de consultas SQL para procesamiento de datos</li>
+    <li><strong>Data Studio</strong>: Creación de visualizaciones y dashboards</li>
+    <li><strong>Google Skill Boost</strong>: Plataforma de desarrollo de laboratorios</li>
+    <li>Visualizaciones en base a datasets públicos de avistamientos OVNI</li>
+  </ul>
 
-    <h2>Metodología</h2>
-    <p>(Describe brevemente los pasos seguidos: carga de datos, limpieza, análisis, visualización.)</p>
+  <h2>Metodología</h2>
+  <ol>
+    <li><strong>Carga de datos</strong>: Importación del dataset de avistamientos OVNI a BigQuery</li>
+    <li><strong>Limpieza de datos</strong>: Normalización y validación de fechas, ubicaciones y descripciones</li>
+    <li><strong>Análisis exploratorio</strong>: Consultas SQL para identificar patrones y tendencias</li>
+    <li><strong>Visualización</strong>: Creación de gráficos interactivos en Data Studio</li>
+    <li><strong>Interpretación</strong>: Análisis de resultados y generación de insights</li>
+  </ol>
 
-    <h2>Resultados</h2>
-    <p>A continuación, se presentan los principales gráficos obtenidos durante el análisis:</p>
+  <p>Se aplicaron técnicas de análisis temporal, geográfico y categórico para examinar la distribución de avistamientos por año, ubicación geográfica, tipos de objetos reportados y duración de los eventos.</p>
 
-    <img src="images/image1.png" alt="Gráfico 1">
-    <img src="images/image2.png" alt="Gráfico 2">
-    <img src="images/image3.png" alt="Gráfico 3">
-    <img src="images/image4.png" alt="Gráfico 4">
-    <img src="images/image5.png" alt="Gráfico 5">
-    <img src="images/image6.png" alt="Gráfico 6">
-    <img src="images/image7.png" alt="Gráfico 7">
-    <img src="images/image8.png" alt="Gráfico 8">
+  <h2>Resultados</h2>
+  <figure>
+    <img src="images/image1.png" alt="Tendencias temporales de avistamientos">
+    <figcaption><em>Tendencias temporales de avistamientos OVNI a lo largo del tiempo</em></figcaption>
+  </figure>
+  <figure>
+    <img src="images/image2.png" alt="Distribución geográfica">
+    <figcaption><em>Distribución geográfica de reportes de avistamientos</em></figcaption>
+  </figure>
+  <figure>
+    <img src="images/image3.png" alt="Tipos de OVNIs">
+    <figcaption><em>Clasificación de tipos y formas de OVNIs más reportados</em></figcaption>
+  </figure>
+  <figure>
+    <img src="images/image4.png" alt="Duración promedio">
+    <figcaption><em>Análisis de duración promedio de los avistamientos</em></figcaption>
+  </figure>
+  <figure>
+    <img src="images/image5.png" alt="Patrones estacionales">
+    <figcaption><em>Patrones estacionales en los reportes de avistamientos</em></figcaption>
+  </figure>
+  <figure>
+    <img src="images/image6.png" alt="Avistamientos por día">
+    <figcaption><em>Distribución de avistamientos por día de la semana</em></figcaption>
+  </figure>
+  <figure>
+    <img src="images/image7.png" alt="Correlaciones adicionales">
+    <figcaption><em>Análisis complementario de correlaciones adicionales</em></figcaption>
+  </figure>
+  <figure>
+    <img src="images/image8.png" alt="Patrones específicos">
+    <figcaption><em>Visualización de patrones específicos identificados</em></figcaption>
+  </figure>
 
-    <h2>Conclusiones</h2>
-    <p>(Redacta aquí las principales conclusiones obtenidas a partir del análisis.)</p>
+  <h2>Principales Hallazgos</h2>
+  <ul>
+    <li><strong>Tendencia creciente</strong>: Se observa un incremento sostenido en los reportes desde la década de 1990</li>
+    <li><strong>Concentración geográfica</strong>: Estados Unidos presenta la mayor densidad de avistamientos reportados</li>
+    <li><strong>Estacionalidad</strong>: Mayor concentración de reportes durante los meses de verano</li>
+    <li><strong>Formas predominantes</strong>: Las descripciones "luz", "disco" y "triángulo" son las más frecuentes</li>
+    <li><strong>Duración típica</strong>: La mayoría de avistamientos reportan duraciones entre 2-10 minutos</li>
+    <li><strong>Patrones semanales</strong>: Los fines de semana muestran mayor actividad de reportes</li>
+  </ul>
 
-    <h2>Créditos</h2>
-    <p>Este análisis fue desarrollado por estudiantes utilizando recursos y guías proporcionadas por el profesor de la asignatura.</p>
+  <h2>Conclusiones</h2>
+  <p>El análisis de Big Data aplicado al dataset de avistamientos OVNI ha permitido identificar patrones consistentes y tendencias significativas. El incremento temporal en los reportes puede estar relacionado con el mayor acceso a tecnologías de comunicación y plataformas de reporte.</p>
+  <p>La concentración geográfica y los patrones estacionales sugieren factores culturales, demográficos y ambientales que influyen en la observación y reporte de estos fenómenos. Las herramientas de Google Cloud Platform demostraron ser efectivas para el procesamiento escalable de grandes volúmenes de datos y la generación de visualizaciones que facilitan la identificación de patrones complejos.</p>
+  <p>Este proyecto ilustra la aplicación práctica de técnicas de Big Data para el análisis exploratorio de datasets diversos, demostrando la capacidad de extraer insights valiosos mediante el uso de herramientas cloud modernas.</p>
+
+  <h2>Créditos</h2>
+  <p>Este análisis fue desarrollado por <strong>Oscar Javier Bastidas</strong> como parte de la Evaluación 2 de Big Data, utilizando recursos y guías proporcionadas por el profesor de la asignatura y la plataforma Google Skill Boost.</p>
+  <p><strong>Repositorio</strong>: <a href="https://github.com/Osc-Jav-Bas/Ev2_big_data" target="_blank">https://github.com/Osc-Jav-Bas/Ev2_big_data</a><br>
+     <strong>Sitio web</strong>: <a href="https://osc-jav-bas.github.io/Ev2_big_data/" target="_blank">https://osc-jav-bas.github.io/Ev2_big_data/</a></p>
 </body>
 </html>
