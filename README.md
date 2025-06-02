@@ -1,7 +1,7 @@
 
 # Evaluación 2 - Big Data
 
-Este proyecto corresponde a la **Evaluación 2** de la asignatura **Big Data**, basado en un caso de análisis de avistamientos de OVNIs. El trabajo fue desarrollado siguiendo las instrucciones del curso Google Skill Boost.
+Este proyecto corresponde a la **Evaluación 2** de la asignatura **Big Data**, basado en un caso de análisis de avistamientos de OVNIs. El trabajo fue desarrollado por Bastían González, Oscar Silva y Javiera Reyes, siguiendo las instrucciones del curso Google Skill Boost.
 
 ## Introducción
 
@@ -33,11 +33,14 @@ Se aplicaron técnicas de análisis temporal, geográfico y categórico para exa
 
 A continuación, se presentan los principales gráficos obtenidos durante el análisis:
 
-*Avistamientos OVNI según tipo*
+*Cantidad de avistamientos por estado dentro de los Estados Unidos*
 ![Gráfico 1](images/Captura1.PNG)
 
-*Avistamientos OVNI por año*
+*Cantidad de avistamientos por año*
 ![Gráfico 2](images/Captura2.PNG)
+
+*Cantidad de avistamientos de las 5 formas de objetos más vistos*
+![Gráfico 3](images/Captura3.PNG)
 
 ## Principales hallazgos
 
