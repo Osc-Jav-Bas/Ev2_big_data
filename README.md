@@ -33,29 +33,11 @@ Se aplicaron técnicas de análisis temporal, geográfico y categórico para exa
 
 A continuación, se presentan los principales gráficos obtenidos durante el análisis:
 
-![Gráfico 1](images/image1.png)
-*Tendencias temporales de avistamientos OVNI a lo largo del tiempo*
+*Avistamientos OVNI según tipo*
+![Gráfico 1](images/Captura1.PNG)
 
-![Gráfico 2](images/image2.png)
-*Distribución geográfica de reportes de avistamientos*
-
-![Gráfico 3](images/image3.png)
-*Clasificación de tipos y formas de OVNIs más reportados*
-
-![Gráfico 4](images/image4.png)
-*Análisis de duración promedio de los avistamientos*
-
-![Gráfico 5](images/image5.png)
-*Patrones estacionales en los reportes de avistamientos*
-
-![Gráfico 6](images/image6.png)
-*Distribución de avistamientos por día de la semana*
-
-![Gráfico 7](images/image7.png)
-*Análisis complementario de correlaciones adicionales*
-
-![Gráfico 8](images/image8.png)
-*Visualización de patrones específicos identificados*
+*Avistamientos OVNI por año*
+![Gráfico 2](images/Captura2.PNG)
 
 ## Principales hallazgos
 
